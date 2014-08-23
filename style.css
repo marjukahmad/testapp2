@@ -3,11 +3,16 @@ html {
 	background: #F8F8FF;
 }
 
-h1 {
-	color: black;
+body {
+	
+	background-size: cover;
+	background-image: url(./images/2.jpg);
+}
+
+h1, h3 {
+	color: white;
 	display: block;
 	font-family: "Arial", Helvetica, sans-serif;
-	font-size: 26px;
 	text-align: center;
 	font-weight: bold;
 	
@@ -94,3 +99,15 @@ text-align: center;
 			 height: 90px;
 			 box-shadow:  1px 2px 0px 5px red;
 		 }
+		 
+		 
+		 
+		 .product-description {
+		 	
+	 		/*background: #F8F8FF; */
+	 		height: 700px;
+	 		width: 700px;
+	 		border-radius: 8px;
+	 		text-color: green;
+			
+		 } 
